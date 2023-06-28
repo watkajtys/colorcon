@@ -17,7 +17,6 @@ export default component$(() => {
           You can <span class="highlight">count</span>
           <br /> on me
         </h3>
-        <Counter />
       </div>
 
       <div class="container container-flex">

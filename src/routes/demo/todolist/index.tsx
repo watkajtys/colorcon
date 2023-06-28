@@ -10,7 +10,7 @@ import {
 import styles from './todolist.module.css';
 
 interface ListItem {
-  text: string;
+  text?: string;
 }
 
 export const list: ListItem[] = [];
