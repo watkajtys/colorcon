@@ -7,13 +7,15 @@
  */
 
 :root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
-  --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
-  --qwik-dark-text: #ffffff;
+  --color-dark-red: #803F2D;
+  --color-light-red: #cc745c;
+  --color-red-hover: #a35c49 ;
+  --color-light-blue: #4765CC;
+  --color-dark-blue: #334480;
+  --color-green: #A1CC70;
+  --color-dirty-black: #1d2033;
+  --color-dark-background: #111;
+  --color-dark-text: #ffffff;
 }
 
 html {
