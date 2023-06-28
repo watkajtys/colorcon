@@ -20,7 +20,7 @@
   font-size: 0.8rem;
 }
 .gettingstarted .hint a {
-  color: var(--qwik-dark-purple);
+  color: var(--color-dark-blue);
 }
 
 @media screen and (min-width: 768px) {
