@@ -8,9 +8,8 @@ html {
 }
 
 body {
-  background: var(--qwik-dark-background);
-  color: var(--qwik-dark-text);
-  overflow-x: hidden;
+  background: var(--color-dark-background);
+  color: var(--color-dark-text);
 }
 
 /* HEADINGS ------------------------------------- */
@@ -27,7 +26,7 @@ h1 {
 }
 h1 .highlight,
 h3 .highlight {
-  color: var(--qwik-light-blue);
+  color: var(--color-light-red);
 }
 
 @font-face {
@@ -74,7 +73,7 @@ h3 {
 /* TAGS ----------------------------------------- */
 a {
   text-decoration: none;
-  color: var(--qwik-light-blue);
+  color: var(--color-light-red);
 }
 
 code {
@@ -94,11 +93,11 @@ ul {
   padding: 30px 40px;
 }
 .container.container-purple {
-  background: var(--qwik-light-purple);
+  background: var(--color-light-blue);
 }
 .container.container-dark {
-  background: var(--qwik-dark-background);
-  color: var(--qwik-dark-text);
+  background: var(--color-dark-background);
+  color: var(--color-dark-text);
 }
 .container.container-center {
   text-align: center;
@@ -127,19 +126,25 @@ ul {
 /* BUTTONS -------------------------------------- */
 a.button,
 button {
-  background: var(--qwik-light-blue);
-  border: none;
-  border-radius: 8px;
+  border: 1px solid white;
+  border-radius: 30px;
   color: white;
   cursor: pointer;
   font-size: 0.8rem;
   padding: 15px 20px;
   text-align: center;
+  transition: all ease 250ms;
+}
+
+a.button:hover, button:hover {
+  background: var(--color-green);
+  color: var(--color-dark-background);
+
 }
 
 a.button.button-dark,
 button.button-dark {
-  background: var(--qwik-dirty-black);
+  background: var(--color-dirty-black);
 }
 
 a.button.button-small,
