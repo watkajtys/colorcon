@@ -12,9 +12,6 @@ export default component$(() => {
       <Hero />
       <Starter />
 
-      <div role="presentation" class="ellipsis"></div>
-      <div role="presentation" class="ellipsis ellipsis-purple"></div>
-
       <div class="container container-center container-spacing-xl">
         <h3>
           You can <span class="highlight">count</span>
