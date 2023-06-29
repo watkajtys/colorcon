@@ -3,20 +3,13 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 
 import Hero from '~/components/starter/hero/hero';
 import Infobox from '~/components/starter/infobox/infobox';
-import Starter from '~/components/starter/next-steps/next-steps';
+import AboutImages from "~/components/starter/about-images/about-images";
 
 export default component$(() => {
   return (
     <>
       <Hero />
-      <Starter />
-
-      <div class="container container-center container-spacing-xl">
-        <h3>
-          You can <span class="highlight">count</span>
-          <br /> on me
-        </h3>
-      </div>
+      <AboutImages />
 
       <div class="container container-flex">
         <Infobox>
