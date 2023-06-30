@@ -31,15 +31,6 @@ export const GETTING_STARTED_STEPS = [
 export default component$(() => {
   const gettingStartedStep = useSignal(0);
 
-  useOnWindow(
-    'keydown',
-    $((e) => {
-      if ((e as KeyboardEvent).key === 'Alt') {
-        gettingStartedStep.value = 1;
-      }
-    })
-  );
-
   return (
     <div class="container container-purple container-center">
       <h2>
