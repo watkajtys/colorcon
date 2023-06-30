@@ -30,11 +30,12 @@ h3 .highlight {
 }
 
 @font-face {
-  font-family: 'lulocleanw01-oneboldregular';
-  src: url('/fonts/lulo-clean-w01-one-bold.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  font-family  : 'lulocleanw01-oneboldregular';
+  /*noinspection CssUnknownTarget*/
+  src          : url('/fonts/lulo-clean-w01-one-bold.woff2') format('woff2');
+  font-weight  : normal;
+  font-style   : normal;
+  font-display : swap;
 }
 
 .luloFont {
