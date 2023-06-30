@@ -90,11 +90,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Denver Colorcon 2023',
   meta: [
     {
       name: 'description',
-      content: 'Qwik site description',
+      content: 'Celebrating Local Icons Past & Present',
     },
   ],
 };
