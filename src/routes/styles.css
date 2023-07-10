@@ -60,7 +60,7 @@ h3 {
   font-size: 2rem;
 }
 
-p.big {
+p.big, span.big {
   font-size: 1.4rem;
 }
 
@@ -147,7 +147,7 @@ button {
 }
 
 a.button:hover, button:hover {
-  background: var(--color-green);
+  background: var(--color-red-hover);
   color: var(--color-dark-background);
 
 }
@@ -160,6 +160,16 @@ button.button-dark {
 a.button.button-small,
 button.button-small {
   padding: 15px 25px;
+}
+
+a.button.alt {
+  background-color: var(--color-light-red);
+  color: white;
+  border-radius: 20px 7px;
+}
+
+a.button.alt:hover {
+  background-color: var(--color-red-hover)
 }
 
 @media screen and (min-width: 768px) {
