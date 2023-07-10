@@ -16,7 +16,7 @@ export default component$(() => {
                     community. making art accessible to all</p>
                 <a q:slot={"btn"} href={'www.google.com'} class={['button', 'alt']}>Google</a>
                 <div q:slot={"image"}>
-                    <ColorBox class={styles.imagebox}/>
+                    <ColorBox class={styles.imagebox} alt={'an image of a mural spray paint can mentioning Colorcon 2022'}/>
                 </div>
             </Box>
 
@@ -24,7 +24,7 @@ export default component$(() => {
                 <div q:slot={"title"}>Making Place</div>
                 <p q:slot={"copy"} class={'big'}>re-imagining spaces/alleyways in the Golden Triangle Creative District.</p>
                 <div q:slot={"image"}>
-                    <CreateImage class={styles.imagebox}/>
+                    <CreateImage class={styles.imagebox} alt={'two artists working on a colorcon mural from 2022'}/>
                 </div>
             </Box>
 
@@ -34,7 +34,7 @@ export default component$(() => {
                     community. making art accessible to all</p>
                 <a q:slot={"btn"} href={'www.google.com'} class={['button', 'alt']}>Google</a>
                 <div q:slot={"image"}>
-                    <DreamImage class={styles.imagebox}/>
+                    <DreamImage class={styles.imagebox} alt={'a scissor lift next to a colorcon mural'}/>
                 </div>
             </Box>
 
@@ -42,7 +42,7 @@ export default component$(() => {
                 <div q:slot={"title"}>Celebrate Culture</div>
                 <p q:slot={"copy"} class={'big'}>COLORCON brings art and music to life in the Golden Triangle</p>
                 <div q:slot={"image"}>
-                    <MusicImage class={styles.imagebox}/>
+                    <MusicImage class={styles.imagebox} alt={'a musician sings during colorcon 2022'}/>
                 </div>
             </Box>
         </div>
