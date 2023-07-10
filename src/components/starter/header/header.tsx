@@ -9,7 +9,7 @@ export default component$(() => {
         <div class={styles.logowrap}>
             <a href="https://goldentriangleofdenver.com/" title="Golden Triangle Creative District">
               {/* eslint-disable-next-line qwik/jsx-img */}
-              <img src="/media/logo.png" alt="GTCD Logo" class={styles.logoimage} width={"50"} height={"50"}/>
+              <img src="/src/media/logo.png" alt="GTCD Logo" class={styles.logoimage} width={"50"} height={"50"}/>
             </a>
           <div class={styles.event_wrapper}>
             <div class={styles.breaker}>

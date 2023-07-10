@@ -63,7 +63,7 @@ header {
 }
 
 .button:hover {
-  background: var(--color-green);
+  background: var(--color-light-red);
   color: var(--color-dark-background) !important;
   transition: all ease 250ms;
 }
