@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import styles       from './header.module.css';
+import Logo from '~/media/logo.png?jsx';
 
 export default component$(() => {
   return (
@@ -9,7 +10,7 @@ export default component$(() => {
         <div class={styles.logowrap}>
             <a href="https://goldentriangleofdenver.com/" title="Golden Triangle Creative District">
               {/* eslint-disable-next-line qwik/jsx-img */}
-              <img src="/src/media/logo.png" alt="GTCD Logo" class={styles.logoimage} width={"50"} height={"50"}/>
+              <Logo alt="GTCD Logo" class={styles.logoimage}/>
             </a>
           <div class={styles.event_wrapper}>
             <div class={styles.breaker}>
