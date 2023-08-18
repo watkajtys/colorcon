@@ -12,7 +12,7 @@ export default component$(() => {
               {/* eslint-disable-next-line qwik/jsx-img */}
               <Logo alt="GTCD Logo" class={styles.logoimage}/>
             </a>
-          <div class={styles.event_wrapper}>
+          <div class={[styles.event_wrapper, 'hideOnMobile']}>
             <div class={styles.breaker}>
               <h2 class={'luloFont'}>COLORCON</h2>
               <h3 class={'luloFont'}>arts & music festival</h3>
