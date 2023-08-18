@@ -19,7 +19,7 @@ export default component$(() => {
           <ul>
             <li>
               <span>Questions or just want to say hi? </span>
-              <a href="https://qwik.builder.io/chat" target="_blank">
+              <a href="mailto:jlarsen@goldentriangleofdenver.com" target="_blank">
                 Message Us
               </a>
             </li>
