@@ -23,3 +23,28 @@
 .alt {
     flex-direction: row-reverse;
 }
+
+@media screen and (max-width : 749px) {
+
+    .aboutitem {
+        width           : 100%;
+        display         : flex;
+        justify-content : space-between;
+        flex-direction  : column-reverse !important;
+        margin          : 2rem auto;
+    }
+
+    .aboutcopy {
+        width           : 100%;
+        display         : flex;
+        justify-content : center;
+        align-items     : flex-start;
+        flex-direction  : column;
+    }
+
+    .imagebox {
+        width         : 100%;
+        height        : unset;
+        margin-bottom : 1rem;
+    }
+}

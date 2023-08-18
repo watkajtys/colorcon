@@ -20,6 +20,17 @@
   flex-direction: row;
 }
 
+@media screen and (max-width : 768px) {
+  .hero {
+    height : 250px;
+  }
+
+  .hero h1 {
+    font-size      : 2rem;
+    letter-spacing : -5px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     gap: 60px;
