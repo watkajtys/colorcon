@@ -14,7 +14,8 @@ export default component$(() => {
                 <div q:slot={"title"}>What Is ColorCon?</div>
                 <p q:slot={"copy"} class={'big'}>COLORCON is a musical and artistic mural event that moves throughout the GTCD
                     community. making art accessible to all</p>
-                <a q:slot={"btn"} href={'www.google.com'} class={['button', 'alt']}>Google</a>
+                <a q:slot={"btn"} href={'https://goldentriangleofdenver.wildapricot.org/event-5269261'}
+                   class={['button', 'alt']}>Tickets</a>
                 <div q:slot={"image"}>
                     <ColorBox class={styles.imagebox} alt={'an image of a mural spray paint can mentioning Colorcon 2022'}/>
                 </div>
@@ -32,7 +33,8 @@ export default component$(() => {
                 <div q:slot={"title"}>What Is ColorCon?</div>
                 <p q:slot={"copy"} class={'big'}>COLORCON is a musical and artistic mural event that moves throughout the GTCD
                     community. making art accessible to all</p>
-                <a q:slot={"btn"} href={'www.google.com'} class={['button', 'alt']}>Google</a>
+                <a q:slot={"btn"} href={'https://goldentriangleofdenver.wildapricot.org/event-5269261'}
+                   class={['button', 'alt']}>Tickets</a>
                 <div q:slot={"image"}>
                     <DreamImage class={styles.imagebox} alt={'a scissor lift next to a colorcon mural'}/>
                 </div>

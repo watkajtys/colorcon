@@ -1,8 +1,9 @@
-import { Slot, component$ } from '@builder.io/qwik';
-import styles               from './about-images.module.css';
+import {Slot, component$} from '@builder.io/qwik';
+import styles             from './about-images.module.css';
 
 interface BoxProps {
     alt?: boolean;
+    inView?: boolean;
 }
 export default component$<BoxProps>((props) => {
     return (
