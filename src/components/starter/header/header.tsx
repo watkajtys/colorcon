@@ -9,7 +9,6 @@ export default component$(() => {
 
         <div class={styles.logowrap}>
             <a href="https://goldentriangleofdenver.com/" title="Golden Triangle Creative District">
-              {/* eslint-disable-next-line qwik/jsx-img */}
               <Logo alt="GTCD Logo" class={styles.logoimage}/>
             </a>
           <div class={[styles.event_wrapper, 'hideOnMobile']}>

@@ -4,9 +4,9 @@ import styles from './infobox.module.css';
 export default component$(() => {
   return (
     <div class={styles.infobox}>
-      <h3>
+        <h4>
         <Slot name="title" />
-      </h3>
+        </h4>
       <Slot />
     </div>
   );
