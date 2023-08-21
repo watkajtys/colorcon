@@ -4,11 +4,15 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 import Hero from '~/components/starter/hero/hero';
 import Infobox from '~/components/starter/infobox/infobox';
 import AboutImages from "~/components/starter/about-images/about-images";
+import Poster      from "~/components/starter/poster/poster";
 
 export default component$(() => {
   return (
     <>
       <Hero />
+
+      <Poster/>
+
       <AboutImages />
 
       <div class="container container-flex">

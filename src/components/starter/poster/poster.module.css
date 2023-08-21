@@ -1,0 +1,49 @@
+.poster {
+    width      : 100%;
+    padding    : 50px 80px;
+    margin     : auto;
+    box-sizing : border-box;
+}
+
+.poster > span {
+    font-size      : 4rem;
+    font-weight    : 700;
+    font-family    : lulocleanw01-oneboldregular, serif;
+    letter-spacing : -15px;
+}
+
+/*add a colored circle after the h2*/
+
+.poster > span:after {
+    content          : '';
+    display          : inline-block;
+    width            : 1.5rem;
+    height           : 1.5rem;
+    border-radius    : 50%;
+    background-color : var(--color-light-red);
+    margin-left      : 1rem;
+    margin-right     : 1rem;
+    vertical-align   : 25%;
+}
+
+.poster > span:last-of-type:after {
+    display : none;
+}
+
+@media screen and (max-width : 768px) {
+    .poster {
+        padding : 50px 20px;
+    }
+
+    .poster > span {
+        font-size      : 2rem;
+        letter-spacing : -6px;
+    }
+
+    .poster > span:after {
+        width        : 1rem;
+        height       : 1rem;
+        margin-left  : 0.5rem;
+        margin-right : 0.5rem;
+    }
+}
