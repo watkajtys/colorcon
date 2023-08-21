@@ -37,7 +37,7 @@ export default component$(() => {
             <li>
               <span>Follow </span>
               <a href="https://instagram.com/goldentriangleofdenver" target="_blank">
-                Golden Triangle Create District
+                Golden Triangle Creative District
               </a>
               <span> on Instagram</span>
             </li>
