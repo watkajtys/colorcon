@@ -3,9 +3,9 @@ import styles       from './headshots.module.css';
 
 import Headshot1 from '~/media/headshot/carlos.png?jsx';
 import Headshot2 from '~/media/headshot/hannimal.png?jsx';
-import Headshot3 from '~/media/headshot/holmes.png?jsx';
-import Headshot4 from '~/media/headshot/mello.png?jsx';
-import Headshot5 from '~/media/headshot/will.png?jsx';
+import Headshot3 from '~/media/headshot/holmes2.png?jsx';
+import Headshot4 from '~/media/headshot/mello2.png?jsx';
+import Headshot5 from '~/media/headshot/will2.png?jsx';
 
 export default component$(() => {
     return (
