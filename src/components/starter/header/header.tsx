@@ -1,6 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import styles         from './header.module.css';
 import Logo           from '~/media/logo/GTCD_Logo_Horizontal_Rev.png?jsx';
+import {Link}         from '@builder.io/qwik-city';
 
 export default component$(() => {
   return (
@@ -28,9 +29,9 @@ export default component$(() => {
         <div class={styles.menu}>
           <ul>
             <li>
-              <a href="/artists/">
+              <Link href="/artists">
                 Artists
-              </a>
+              </Link>
             </li>
             <li>
               <a href="https://goldentriangleofdenver.wildapricot.org/event-5269261" target="_blank" class={styles.button}>
