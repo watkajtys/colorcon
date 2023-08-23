@@ -74,7 +74,7 @@ header {
 }
 
 .logoimage {
-  width: 50px;
+  width : auto;
   height: 50px;
 }
 
@@ -106,8 +106,8 @@ header {
 }
 
 .event_wrapper .breaker h3 {
-  font-size: .8rem;
-  letter-spacing: -2px;
+  font-size      : 1rem;
+  letter-spacing : -3px;
 }
 
 .menu {

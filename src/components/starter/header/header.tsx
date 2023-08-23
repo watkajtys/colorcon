@@ -1,6 +1,6 @@
 import { component$ } from '@builder.io/qwik';
-import styles       from './header.module.css';
-import Logo from '~/media/logo.png?jsx';
+import styles         from './header.module.css';
+import Logo           from '~/media/logo/GTCD_Logo_Horizontal_Rev.png?jsx';
 
 export default component$(() => {
   return (
@@ -14,7 +14,7 @@ export default component$(() => {
           <div class={[styles.event_wrapper, 'hideOnMobile']}>
             <div class={styles.breaker}>
               <h2 class={'luloFont'}>COLORCON</h2>
-              <h3 class={'luloFont'}>arts & music festival</h3>
+              <h3 class={'luloFont'}>2023 Mural Festival</h3>
             </div>
             <div class={styles.breaker}>
               <p>august 26 | 5-8pm</p>
