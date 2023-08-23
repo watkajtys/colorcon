@@ -28,7 +28,7 @@ export default component$(() => {
         <div class={styles.menu}>
           <ul>
             <li>
-              <a href="/artists">
+              <a href="/artists/">
                 Artists
               </a>
             </li>
