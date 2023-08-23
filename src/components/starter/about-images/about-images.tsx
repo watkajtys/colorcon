@@ -30,9 +30,9 @@ export default component$(() => {
             </Box>
 
             <Box alt={true}>
-                <div q:slot={"title"}>What Is ColorCon?</div>
-                <p q:slot={"copy"} class={'big'}>COLORCON is a musical and artistic mural event that moves throughout the GTCD
-                    community. making art accessible to all</p>
+                <div q:slot={"title"}>Featuring Local Artists</div>
+                <p q:slot={"copy"} class={'big'}>COLORCON features artists local to Denver and Colorado. Celebrate local
+                    talent.</p>
                 <a q:slot={"btn"} href={'https://goldentriangleofdenver.wildapricot.org/event-5269261'}
                    class={['button', 'alt']}>Tickets</a>
                 <div q:slot={"image"}>
