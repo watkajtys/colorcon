@@ -8,7 +8,7 @@ export default component$(() => {
       <div class={[styles.wrapper]}>
 
         <div class={styles.logowrap}>
-            <a href="https://goldentriangleofdenver.com/" title="Golden Triangle Creative District">
+          <a href="/" title="Golden Triangle Creative District">
               <Logo alt="GTCD Logo" class={styles.logoimage}/>
             </a>
           <div class={[styles.event_wrapper, 'hideOnMobile']}>
@@ -28,7 +28,7 @@ export default component$(() => {
         <div class={styles.menu}>
           <ul>
             <li>
-              <a href="https://qwik.builder.io/docs/components/overview/" target="_blank">
+              <a href="/artists">
                 Artists
               </a>
             </li>
