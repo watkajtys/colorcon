@@ -1,0 +1,34 @@
+/*a grid of five equally sized headshots*/
+/*wraps on mobile*/
+
+.headshots {
+    display               : grid;
+    grid-template-columns : repeat(5, 1fr);
+    grid-gap              : 1rem;
+    margin-bottom         : 1rem;
+    width                 : 100%;
+    place-items           : center;
+    box-sizing            : border-box;
+}
+
+.headshots > .headshotimage {
+    width           : 100%;
+    height          : 100%;
+    max-width       : 250px;
+    max-height      : 250px;
+    object-fit      : cover;
+    object-position : center;
+    border-radius   : 60px 15px
+}
+
+@media (max-width : 767px) {
+    .headshots {
+        padding               : 0 1rem;
+        grid-template-columns : repeat(2, 1fr); /* Three columns on top */
+    }
+
+    .headshots > .headshotimage {
+        max-width  : 180px;
+        max-height : 180px;
+    }
+}
