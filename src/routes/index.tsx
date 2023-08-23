@@ -5,6 +5,7 @@ import Hero from '~/components/starter/hero/hero';
 import Infobox from '~/components/starter/infobox/infobox';
 import AboutImages from "~/components/starter/about-images/about-images";
 import Poster      from "~/components/starter/poster/poster";
+import Headshots   from "~/components/starter/poster/headshots";
 
 export default component$(() => {
   return (
@@ -12,6 +13,8 @@ export default component$(() => {
       <Hero />
 
       <Poster/>
+
+      <Headshots/>
 
       <AboutImages />
 
