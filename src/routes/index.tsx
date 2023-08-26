@@ -6,6 +6,7 @@ import Infobox from '~/components/starter/infobox/infobox';
 import AboutImages from "~/components/starter/about-images/about-images";
 import Poster      from "~/components/starter/poster/poster";
 import Headshots   from "~/components/starter/poster/headshots";
+import Sponsors    from "~/components/starter/sponsors/sponsors";
 
 export default component$(() => {
   return (
@@ -17,6 +18,8 @@ export default component$(() => {
       <Headshots/>
 
       <AboutImages />
+
+        <Sponsors/>
 
       <div class="container container-flex">
         <Infobox>

@@ -1,0 +1,45 @@
+/*A GRID OF SPONSOR IMAGES, WITH A LINK TO THEIR WEBSITE*/
+/*6 sponsors per row*/
+
+.sponsors {
+    background : white;
+}
+
+.sponsors > h3 {
+    color       : black;
+    text-align  : center;
+    font-family : lulocleanw01-oneboldregular, serif;
+    padding     : 3rem 0;
+}
+
+.sponsors > .sponsorsgrid {
+    display               : grid;
+    grid-template-columns : repeat(6, 1fr);
+    grid-gap              : 1rem;
+    margin                : 0 auto;
+    width                 : 100%;
+    padding               : 50px 80px;
+    box-sizing            : border-box;
+}
+
+.sponsors > .sponsorsgrid > .sponsorimage {
+    width           : 100%;
+    height          : 100%;
+    max-width       : 200px;
+    max-height      : 200px;
+    object-fit      : contain;
+    object-position : center;
+}
+
+@media screen and (max-width : 768px) {
+
+    .sponsors > .sponsorsgrid {
+        padding               : 30px 20px;
+        grid-template-columns : repeat(3, 1fr);
+    }
+
+    .sponsors > h2 {
+        font-size      : 1.5rem;
+        letter-spacing : -3px;
+    }
+}

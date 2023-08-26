@@ -61,6 +61,10 @@ h3 {
   letter-spacing : -5px;
 }
 
+h3.black {
+    color : black;
+}
+
 p.big, span.big {
   font-size: 1.4rem;
   line-height : 1.6rem;
