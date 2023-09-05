@@ -6,7 +6,8 @@ export default component$(() => {
         <div class={styles.poster}>
             <span>Will Barker</span>
             <span>Mr. Hanimal</span>
-            <span>El Gatos Locos</span>
+            <span>Carlos Frésques</span>
+            <span>(Los Gatos Locos)</span>
             <span>Jasmine Holmes</span>
             <span>RJ Mello</span>
             <span>Marco Garcia</span>
