@@ -39,6 +39,7 @@
     .poster > span {
         font-size      : 1.5rem;
         letter-spacing : -5px;
+        line-height : unset;
     }
 
     .poster > span:after {
