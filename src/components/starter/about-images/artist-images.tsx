@@ -66,15 +66,10 @@ export default component$(() => {
             </Box>
 
             <Box>
-                <div q:slot={"title"}>El Gatos Locos</div>
-                <p q:slot={"copy"} class={'big'}>Marco Antonio Garcia, a self-taught artist, draws from his Mexican
-                    heritage and draws inspiration from Alebrije wooden mythical animals, ancient Mayan Art, and
-                    renowned Mexican Artists. His creative process often starts with a spontaneous line or shape, using
-                    it as a foundation for his compositions. He's mindful of utilizing space and avoids being overly
-                    influenced by modern visual media. While he values the influence of other artists and art forms, he
-                    believes it shouldn't constrain his own creative direction. Marco focuses on crafting original,
-                    accessible art, favoring small canvases, cardboard, sheet metal, glass skulls, and hand-cut paper
-                    for his efficient and affordable creations.</p>
+                <div q:slot={"title"}>Carlos Frésquez</div>
+                <p q:slot={"copy"} class={'big'}>Denver native and artist Carlos Frésquez people came from the centuries-old Mexican borderland culture of southern Colorado and northern New Mexico, but he experienced his roots from a city boy’s cross-cultural perspective. It’s an intrinsic part of who he is as a human and as an artist: community-driven, rooted in religion and folklore, yet radically political and often satirical.
+
+                    But Frésquez, who teaches, often still returns to the heart and symbology of his ancestral culture, leading his students in the act of becoming artists or creating traditional mural projects, and gently encouraging them to remain true to themselves. .</p>
                 <div q:slot={"image"}>
                     <Carlos class={styles.imagebox}
                             alt={'an image of a mural spray paint can mentioning Colorcon 2022'}/>
